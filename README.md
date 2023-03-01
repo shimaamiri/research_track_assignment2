@@ -46,7 +46,7 @@ $ rosrun second_assignment UI
 * For obtaining the distance from the wall, the ranges vector of laser scanner should be considered (we divide the ranges vector into 3 subsections; left, front, and right. Then, we consider the minimum value of each subsection, which provides information about the closest wall).
 
 The program rosgraph is shown in the following image:
-![rosgraph](https://github.com/shimaamiri/rt_assignment2/blob/master/rosgraph_RT1_2.png)
+![rosgraph](https://github.com/shimaamiri/rt_assignment2/blob/master/rosgraph.png)
 
 ### Controller node
 Subscribes to command and base_scan topics and publishes the robot control signal with respect to detected obstacles to cmd_vel topic. 
